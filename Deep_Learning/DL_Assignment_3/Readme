@@ -1,0 +1,21 @@
+Objective
+ To build a multi-image classification using Convolutional Neural Networks in CNN, where it learns the advantages from CNNs 
+in spatial hierarchies on the image data.
+
+Used Python Libraries
+1. TensorFlow/Keras: provides high-level layers on top for building CNN architectures, optimization, and training deep learning models.
+2. OpenCV: Specifically used during the pre-processing of images because it can resize, normalize, and augmentation as well.
+3. NumPy: Managing image data arrays and provides assistance in the process during data manipulation.
+4. Matplotlib: Useful to plot the images and training metrics, such as accuracy and loss.
+5. scikit-learn: Useful to split the data into a training set and a testing set and evaluates the performance.
+
+Advantages
+1. Accuracy: CNNs work extremely well for image data with excellent performance on multiclass classification
+2. Feature Extraction: Automatically learns image features so that much effort is not required for manual feature extraction.
+3. Scalability: CNNs perform very well on large image datasets and are quite robust in their generalization capability, given enough training.
+
+Limitations
+1. Resource-Intensive: CNNs are quite resource intensive, and the computational power needed to implement this especially for larger datasets is huge.
+2. Complexity: Hyperparameter tuning for CNNs is also very hard, time-consuming, and sometimes impervious to intuition and 
+   our past experience with similar architectures.
+3. Risk of Overfitting: Without adequate regularization or data augmentation, CNNs may also overfit on small or imbalanced datasets.
