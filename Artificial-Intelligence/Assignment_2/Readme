@@ -1,0 +1,21 @@
+This is the classic "Missionaries and Cannibals" problem, where one must carry all the missionaries and cannibals across the river without
+ever leaving the cannibals in greater number than the missionaries on either side of the river. This I will discuss by object, advantages,
+disadvantages, and libraries used here in this code
+
+Objective
+To write a program for the "Missionaries and Cannibals" problem.
+To ensure, at any step, the number of cannibals does not exceed the number of missionaries on any bank.
+To show every step when missionaries and cannibals are transported across the river.
+
+Advantages
+Visible Output: The display() function can be used to allow an output illustrating how the missionaries and cannibals are being moved in steps across the river.
+Logical flow of the solution: The solution() function will then comprehensively think and transport both missionaries and cannibals, considering any setup.
+Game Simulation: It does allow users to learn through simulation, which makes them understand constraint-satisfaction problems.
+
+Disadvantages
+Low Interactivity: The logic-following approach takes no input from the user; hence, it is relatively rigid
+No Error Handling: There are very few robust checks within the code regarding bad states or incorrect outcomes
+Scalability: It is amenable to only a 3x3 scenario. They cannot scale easily to any other configurations
+Python Libraries Used
+This code uses only the standard library of Python, as it exploits functions, loops, and basic input/output operations,
+without any third-party library, keeping it simple, but effective to the problem itself.
