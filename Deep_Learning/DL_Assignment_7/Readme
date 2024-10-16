@@ -1,0 +1,25 @@
+Objective
+Utilize Object Detection using the YOLO algorithm with a pre-trained model in detecting and locating objects in
+images or video streams in real-time. This is utilized significantly in all surveillance, 
+autonomous driving, and robotics domains.
+
+Libraries Used in Python
+1. OpenCV: Load, display, and manipulate images and video streams used in the tasks.
+2. TensorFlow/PyTorch: to load pretrained YOLO models and run inference on input data
+3. NumPy useful for numpy-array processing and numerical computation
+4. Matplotlib: to plot the results of detection, together with class labels and bounding boxes
+5. YOLOv5: A free, widely used implementation of YOLO that gives an intuitive interface and pre-trained weights for many different types of datasets.
+
+Advantages
+1. Real-Time Performance: Unlike most other detectors, this algorithm will not take too much time to process images.
+   The ability to do object detection in video feeds places it as one that is really real-time.
+2. High Accuracy: It finds a balance between speed and accuracy and works for a lot of applications .
+3. Single Neural Network: YOLO treats detection as a single regression problem, hence simplifies the architecture
+   and improves the speed compared to traditional methods.
+
+Drawbacks
+1. Complexity in Tuning: Fine-tuning the model for special use cases requires rather big expertise and efforts.
+2. Detection of extremely small objects: YOLO can be problematic in dealing with an image if there are very small objects within because, 
+   from the grid-based model predictory, it predicts an object.
+3. These models may not perform well if the classes of object in the pre-trained model are different from the totally new 
+   classes as they may also have to be fine-tuned for good performance with other classes.
