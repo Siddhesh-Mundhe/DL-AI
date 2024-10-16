@@ -1,0 +1,20 @@
+Objective
+1. Find the shortest path between points, particularly in maps, robotics, games, or puzzle-solving.
+2. Optimization: Minimize path costs measured by distance, time, or other metrics.
+3. Heuristic-based search: Informed search-through paths of the possible using prioritized likely optimal routes. This is much faster than uninformed search methods.
+
+Python Libraries Used
+1. NetworkX: Really good for representing graphs; would really be helpful in visualizing nodes and edges in a pathfinding problem.
+2. heapq: Would provide an efficient means of handling a priority queue, which is exactly what A*'s open list needs.
+3. NumPy: Helps with handling matrices, which could be a useful tool when dealing with grid-based paths or costs.
+4. pygame/matplotlib: Really good for the visualization of paths on 2D grids. Really helps see how A* is progressing in real-time.
+
+Advantages
+1. Efficiency: A* is significantly faster than most pathfinding algorithms thanks to the heuristic which assigns scores to optimal paths.
+2. Optimality: It will find the shortest path if the heuristic is admissible.
+3. Flexibility: Can be used in vast scenarios with different heuristics for every one.
+
+Drawbacks
+1. Resource Intensive: A* becomes slow and memory-intensive on large maps or dense graphs.
+2. Heuristic Sensitivity: Efficiencies and even optimality are sensitive to a poor choice of heuristic.
+3. Complexity: The correct development of A* depends on the careful consideration of minor aspects of heuristic design and priority management.
