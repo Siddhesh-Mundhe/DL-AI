@@ -1,0 +1,21 @@
+Design family relationships as a tree so that the relationships can be represented efficiently especially during the query 
+for relations like ancestors and siblings and familial connections may even be visualized. It is capable of storing 
+relationship data systematically and retrieving it easily.
+
+Libraries Used
+1. NetworkX: The library helps in working with tree structures so as to represent the family relationships.
+2. Pandas: Helps to organize and manage family data, which are imported mostly from spreadsheets.
+3. matplotlib/Graphviz: Packages that help in visualizing family trees.
+4. xml.etree.ElementTree/json: Useful to parse family data from XML or JSON; they are usually good formats for records in genealogy.
+
+Benefits of :
+1. Complex relationships (such as cousins or extended family) can be reached faster.
+2. The data is structured in a hierarchical manner, which simplifies the tracking of a lineage.
+3. Family ties can be easily visualized .
+4. It is useful for historical and genealogic research.
+
+Limitations:
+1. Handling non-traditional families (such as step-relations) can be difficult
+2. It requires careful validation of data to assure of the accuracy of the relationships.
+3. Large trees demand considerable resources for parsing.
+4. Storing family data contains privacy and security considerations.
