@@ -1,0 +1,21 @@
+Objective
+1. Constraint Satisfaction: To solve 8-Queens by placing queens on the chessboard so that no two queens threaten each other.
+2. Search Exploration: Explore the board configurations using backtracking to find a valid placement.
+3. Problem Solving: Showcase an instance where search can be applied in constraint satisfaction problems, 
+which have very immense applications in AI and related optimization tasks.
+ 
+Python Libraries Used
+1. NumPy: Helpful in matrix manipulations in case you're either visualizing the board as a matrix or handling one.
+2. itertools: Its tools like `permutations` to generate board configurations from different solutions.
+3. matplotlib/seaborn: Useful in visualizing the board and queen placements graphically.
+4. time: Useful to trace the time complexity of the algorithm.
+Advantages
+1. Elegant Recursive Solution: Backtracking gives one an elegant recursive solution that systematically explores valid positions.
+2. Backtrack in Tight Constraints: For an 8x8 board, backtracking will quickly get solutions by backtracking early from invalid placements.
+3. Backtrack for General Constraint Problems: It depicts techniques that might be applied to any constraint satisfaction problems like Sudoku or scheduling.
+
+Drawbacks
+1. Scalability: In general, backtracking will be slow for large boards or complicated constraints.
+2. Memory usage: Recursive calls can lead to large memory usage for large boards.
+3. No assurances that path found is optimal: In large or complex state space, backtracking has no assurance that any path leads to the solution is
+the optimal one.
