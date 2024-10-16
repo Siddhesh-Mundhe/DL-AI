@@ -1,0 +1,25 @@
+The Forward Chaining Algorithm is used mainly in rule-based systems, especially in expert systems as a technique for inference. 
+It starts with a set of known facts and applies rules to bring out new facts until a conclusion or a goal is achieved.
+Objective
+
+Inference Automation: Derive new knowledge from some given initial facts and rules, so that systems can make conclusions or decisions automatically.
+Rule-Based Reasoning: A systematic way of using rules that drive you from known facts toward new inferences' derivation.
+Expert Systems: Implementation is quite popular within a variety of domains, particularly for both recommendation systems and knowledge-based systems,
+as well as for expert diagnosis.
+
+Python Libraries Used
+pyknow: A highly in demand library exclusively for the building of rule-based expert systems and has facilities for managing facts and chaining rules.
+pandas: Useful for data organization and analysis purposes to represent facts or rules.
+NumPy: Effective for performing logical operations on arrays or matrices that express facts and inferences.
+time: to monitor time of execution, preferably for performance analyses in larger systems.
+
+Benefits
+Automatic Inference: It is capable of deducing conclusions from predefined sets of rules, more so for real-time decisions.
+Dynamic Knowledge Expansion: It constantly introduces new facts during the evaluation of rules, so flexible but expansive knowledge bases as well.
+Interactivity: Enables interactive and modularity problem solving that can be used for complex systems with information that often changes.
+
+Drawbacks
+Efficiency Problems: Forward chaining takes long when the number of rules is huge since there will be the need to evaluate many rules.
+Not Goal-Based: Allows nonnecessary inference since there is no particular goal to be reached, as it will start to evaluate the whole set of rules.
+Complexity in Rule Management: Needs a more than average design and management of rules against duplication and conflicts,
+a possible complexity which makes debugging hard.
