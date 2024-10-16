@@ -1,0 +1,20 @@
+Objective
+Create and train a **Feedforward Neural Network (FNN)** for purposes such as classification or regression,
+by passing inputs through multiple layers of neurons to predict outputs on a pattern learned basis.
+
+Libraries
+1. TensorFlow/Keras: This is a high-level application programming interface to create and train neural networks.
+   It includes TensorFlow as the computational backend
+2. NumPy: array management to prepare data in preparation for manipulation and preprocessing.
+3. Matplotlib: This tool is used for plotting and visualizing training metrics, such as loss and accuracy, across epochs.
+
+Advantages
+1. Easy to Use: Keras comes with a user-friendly API, which makes rapid construction of neural networks possible.
+2. Efficient Training: This is supported by GPU acceleration using TensorFlow, especially in large datasets.
+3. Modular Structure: This results in ease in creating models by having different configurations using the layer-based approach of Keras.
+
+Disadvantages
+1. Resource Intensive: FNNs consume a lot of computer resources, mainly for large-sized datasets or for heavy computational tasks.
+2. Overfitting Problem: Feed-forward networks have the tendency to overfit the small data or even imbalanced data when there is no regularization
+3. Suitable Just for Simple Data: FNNs are not suitable for sequential or spatial data unless it includes more advanced layers such as
+   convolutional or recurrent layers.
