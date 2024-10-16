@@ -1,0 +1,27 @@
+A practical application in that regard could be a customer support or appointment scheduling bot.
+A chatbot application would be designed with a specific design of an interactive, conversational agent that 
+interprets the user queries and offers corresponding answers.
+
+Customer Support
+Offer 24/7 support through troubleshooting FAQs, routing to human agents where needed, Automation
+To users: repetitive tasks of scheduling, booking, or releasing information.
+Personalized User Experience: Thus, it accelerates the satisfaction of the user by giving rapid and accurate response in conversationally.
+
+Libraries
+NLTK or spaCy: It offers complete NLP functionalities like tokenization, entity recognition, and intent classification.
+TensorFlow/PyTorch: These are needed to train machine learning models to enhance intent and response generation.
+ChatterBot: This is used as a high-level library where the chatbot is constructed for predefined responses and conversational flow.
+Flask/Django: It will be used for the development of web API, by which chat will be deployed as a web application
+Twilio/Dialogflow/Microsoft Bot Framework: To deploy on multi-platform, e.g., WhatsApp, Facebook Messenger.
+
+Benefits
+Availability 24/7, which provides significant improvements in the accessibility of services and reduces the waiting period for a customer
+Cost-Efficient: Since the bot can automate routine tasks, it reduces the cost of support to customers and minimizes human intervention
+Scalability: Handling multiple users simultaneously, the more the number of its users, the more scalable it is.
+Invariable Answers: Suggests standard answers, so the information provided is correct and less variable.
+
+Drawbacks
+Ease to Understand: Rarely does a chatbot understand complicated, ambiguous or abstruse questions and thus the interaction remains unsatisfactory.
+Dependence on Training Data: If the data is of minor quality and quantity on which the model was trained it might not work well.
+Cannot Understand: Sensitive situations require empathy, and chatbots never have any.
+Maintenance: This entails periodic updates to ensure the responses are kept appropriate and as accurate as possible with the shifting user language patterns.
