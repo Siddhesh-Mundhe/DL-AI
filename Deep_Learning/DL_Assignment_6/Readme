@@ -1,0 +1,23 @@
+Objective
+We need to create a Sentiment Analysis model that falls under the category of Classifiers,
+where the class label is one of three: Positive, Negative, and Neutral. This type of application is traditionally used for analyzing 
+customer feedback, social media posts, or reviews.
+
+Packages Used
+1. TensorFlow/Keras: Designing and training the LSTM or GRU networks, tailored for the sequential nature of the text data.
+2. NLTK/spaCy: We will use these packages for NL processing tasks such as tokenization, stopword removal, and lemmatization.
+3. NumPy: Useful for dealing and processing text data in numerical format.
+4. Pandas: Used to load and preprocess datasets, such as reviews and comments.
+5. Matplotlib/Seaborn: Used to plot the training progress and sentiment distribution in the dataset.
+
+Advantages
+1. Performance on Sequential Data: The functionalities of LSTMs and GRUs capture dependencies spanning over long periods.
+   As a result, they are especially good to be used in contextual sentiment.
+2. Varied Text Data: Can be generated on any topic like product reviews, tweets, or feedbacks to increase the specificity.
+3. Rigorous with Large Volumes of Data: LSTM and GRU networks are highly resolution on large texts. The network captures 
+   fine sentiment issues that others cannot really catch up with well.
+ 
+Disadvantages
+1. Computational Intensive: LSTMs and GRUs usually need huge memory for training the model, especially when long sequences are applied.
+2. Takes a lot of time in Data Preprocessing: Heavy pre-processing is usually needed such as cleaning, tokenizing to get the best out of the model.
+3. Overfitting: Model overfitting will be at risk if the model is not appropriately regularized on smaller or homogeneous datasets.
