@@ -1,0 +1,25 @@
+Objective
+Create a Text Recognition System with Optical Character Recognition (OCR), using OpenCV library to feed the image to be processed, 
+Tesseract for text recognition and detection with a deep neural network to increase accuracy.
+
+
+Python Libraries Used
+1. OpenCV: For preprocessing tasks related to images such as resizing, thresholding, edge detection to make the text observable.
+2. Tesseract: It is the strong OCR engine, which reads and recognizes text from the processed image data.
+3. TensorFlow/Keras: To build up and train deep neural networks on advanced tasks for locating text and capability to handle complex backgrounds.
+4. NumPy: It can provide support for operations involving images and arrays.
+5. Pytesseract: This is the Python wrapper for the Tesseract OCR engine, making it easier to integrate into code written in Python.
+
+Advantages
+1. Application for Text Extraction: This tool can scan and recognize text from photographs of paper documents,
+   receipts, street signs, or virtually any other captured image.
+2. Preprocessing Customization: OpenCV allows flexibility during the preprocessing stage; this way, 
+    one may customize to improve OCR accuracy on poor-quality images.
+3. Neural Network Integration: Neural networks make OCR even more accurate because they permit some level of 
+    true text detection on cluttered images or noisy backgrounds.
+
+Limitations
+1. Variability in Accuracy: Because OCR accuracy may vary significantly with regards to poor-quality images of text captured,
+    unusual fonts, or cluttered backgrounds.
+2. High Resource Requirement: Deep neural networks with OCR are mostly resource-intensive applications, particularly if adopted for real-time use.
+3. Language Limitation: However, Tesseract would have to be trained to get extra languages or scripts that the model does not possess as pre-trained.
