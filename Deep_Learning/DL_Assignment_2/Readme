@@ -1,0 +1,20 @@
+Objective
+To build a facial recognition system using the OpenCV, based on deep learning, where it would classify the faces
+as "known" vs. "unknown" or "match" vs. "no match."
+
+Libraries Used
+1. OpenCV: Contains APIs for all the tasks which involve image and video processing, like face detection and preprocessing.
+2. TensorFlow/Keras: Developing a binary classification neural network on features in detected faces.
+3. dlib: Mostly utilized in facial landmark detection for alignment and feature extraction from face images.
+4. NumPy: Facilitates the data manipulation and management of image arrays.
+
+Advantages
+1. Accuracy: Utilizing Deep learning algorithms married with OpenCV's detection mechanism, 
+   it achieves good accuracy on these facial classification tasks.
+2. Real Time Processing: OpenCV enables real-time face detection which makes the system work well with live feeds from cameras.
+3. Scalable: Deep learning models can be fine-tuned with increased data and demands to classify more complex facial features.
+
+Disadvantages
+1. Resource Hogs: Face recognition is definitely a high-powered computation requirement, particularly in training the models and their real-time inference.
+2. Data Privacy Issues: There is a concern that storing and using facial data will infringe on personal rights and could involve legal ramifications.
+3. Performance Under Uncertain Conditions: Lighting, occlusions, or angles can interfere with the quality of accuracy and robustness of the model.
