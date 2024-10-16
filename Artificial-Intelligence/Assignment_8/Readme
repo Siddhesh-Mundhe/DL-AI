@@ -1,0 +1,24 @@
+Backward Chaining Algorithm- One of the most commonly used methods of inference in rule-based expert systems.
+It begins with a goal or hypothesis and moves back to determine whether established facts and known rules can support that goal.
+This is widely adopted in diagnostic and decision-making applications where specific conclusions must be verified based on existing knowledge.
+
+Objective
+Goal-Oriented Inference: This determines whether a specific goal or hypothesis is provable from a given set of rules and facts.
+Efficient Inference: It operates backward from the goal; it only checks relevant rules, making it efficient in large rule bases.
+Applications in Decision Making: It is used in the expert system; areas of operation include troubleshooting, medical diagnosis, and legal reasoning.
+
+Python Libraries Used
+pyknow: it offers an API for rule-based systems and supports backward chaining to efficiently manage facts and rules.
+pandas: useful in maintaining facts or rule data-sets.
+NetworkX: help model rules and facts as a directed graph, making going backward easy.
+time: useful for monitoring execution time for analyzing the performance of the backward chaining.
+  
+Advantages
+Goal Testing Efficiency: it accesses only the rules of interest for a particular goal, thus eliminating unnecessary inferences.
+Targeted Deduction: focuses on reaching certain outcomes which makes it very much perfect for use in applications that need certain conclusions.
+Flexibility in Large Rule Bases: It is a good approach for complex systems in that only relevant rules need to be evaluated.
+
+Disadvantages
+Limited Forward Knowledge Discovery: It doesn't find new facts unless they contribute directly to proving the goal.
+Can Be Computationally Expensive: The working backward through rules in very nested rule systems can be computationally expensive.
+Complexity in the Management of Rule Dependency: It requires a well-organized rule set to eliminate circular dependencies or logical errors.
