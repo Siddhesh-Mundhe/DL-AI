@@ -1,0 +1,16 @@
+Mainly, feedforward neural networks aim at efficient building, training, and deployment of deep learning models using the Keras and TensorFlow libraries.
+
+Feedforward neural networks are among the more basic models of deep learning. They concentrate most on the classification problems, regression, and function approximation.
+
+Python Libraries Used:
+
+TensorFlow: Developed by Google as an open-source library that is robust for high-performance computation in deep learning and for large-scale machine learning tasks.
+This is known as Keras: a high-level API implemented on top of the base TensorFlow. That means it allows one to simplify the building of neural networks by providing intuitive, user-friendly functions to define, compile, and train models.
+
+Advantages
+1. It is easy to use-the API is very newbie-friendly, so model development can happen faster.
+2. Flexibility-TensorFlow is very flexible, so many custom layers and operations are possible.
+3. Scalability-TensorFlow can handle large datasets and run on GPUs, CPUs, or TPUs.
+
+Disadvantages
+1. It is very hard to understand for a newcomer. TensorFlow is difficult to understand at first. 2. Sometime, it's difficult to debug the errors in large projects in TensorFlow. 3. Resource-intensive: Running deep learning models can be quite computationally expensive.
