@@ -1,0 +1,21 @@
+Objective
+Create a **Time Series Prediction** model using Recurrent Neural Networks (RNNs) to be used for determining stocks on the stock market or weather forecasts. 
+RNNs are especially created to process time-dependent sequences, making them very potent in time-series analysis.
+
+Python Libraries Used
+1. TensorFlow/Keras: Packages that can be used in creating deep learning models for sequential data with the RNN, LSTM, and GRU layers.
+2. NumPy: Useful in the management and manipulation of large time-series datasets.
+3. Pandas: For loading and preprocessing time-series data, and date and time format.
+4. Matplotlib/Seaborn: Used in plotting trends, predictions, accuracy metrics along with other data visualizations.
+5. scikit-learn: Used for splitting data, normalization, even evaluation metrics.
+
+Advantages
+1. Modeling Sequential Data: RNNs, above all, LSTMs and GRUs, are capable of taking into consideration temporal dependency; hence, predictions become accurate.
+2. Flexibility: Ranging from short-term predictions to long-term predictions, RNNs can be set to work for all these cases.
+3. Real-Time Forecasting: Capable of updating predictions for new streams of incoming data with real-time analysis supported.
+
+Advantages
+1. Unstable Training: It does not perform well with long sequences and the gradients might either vanish or explode 
+    and therefore training becomes unstable, but LSTMs or GRUs enhance it and increases the complexity.
+2. Slow Training: It trains slowly, and for instance, training a long sequence.
+3. Overfitting: More prone to overfitting than others because time series has irregular patterns, and hence, necessary to tune carefully and has to be regularized.
